@@ -1,0 +1,22 @@
+# python
+__pycache__/
+*.pyc 
+
+# virtual environment
+.venv/
+venv/
+
+# environment variables and secrets
+.env
+
+#local streamlit secrets
+.streamlit/secrets.toml
+
+#editor / operating system files
+.vscode/
+.DS_store
+Thumbs.db
+
+#generated data or model files
+.pkl
+.joblib
